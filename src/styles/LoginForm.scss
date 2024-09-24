@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#LoginForm{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vh;
+
+    background-color: whitesmoke;
+    border-radius: .25rem;
+
+    padding: 2rem;
+
+    gap: .5rem;
+
+    .input{
+        border-radius: .25rem;
+        padding: .2rem;
+        outline: none !important;
+        border: none;
+    }
+}
+

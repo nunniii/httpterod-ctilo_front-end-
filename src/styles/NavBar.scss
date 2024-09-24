@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav{
+    display:flex;
+    justify-content: right;
+
+    button{
+        padding: .3rem 1rem;
+        background-color: #e41c1c;
+        border: 0;
+        border-radius: .25rem;
+        color: white;
+        font-weight: 200;
+        font-size: 14pt;
+
+        &:hover{
+            background-color: #e74a4a;
+            transition: .2s;
+        }
+    }
+}
