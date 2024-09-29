@@ -1,5 +1,5 @@
 // src/MainContent.tsx
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useAuth } from './context/AuthContext';
 import LoginForm from './components/LoginForm';
 import LettersList from './components/LettersList';
