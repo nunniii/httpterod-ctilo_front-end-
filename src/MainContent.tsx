@@ -17,7 +17,7 @@ const MainContent: React.FC = () => {
 
   const fetchLetters = async (userId: number) => {
     try {
-      const response = await fetch(`http://localhost:3000/letters/user`, {
+      const response = await fetch(`https://httpterod-ctilo-production.up.railway.app/letters/user`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
