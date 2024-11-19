@@ -1,4 +1,4 @@
-const BASE_URL = 'https://httpterod-ctilo-production.up.railway.app';
+const BASE_URL = 'httpterod-ctilo-delta.up.railway.app';
 
 // Função existente para criar uma carta
 export const createLetter = async (data: any) => {
