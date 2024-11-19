@@ -18,7 +18,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
     
     // Requisição de login
     try {
-      const response = await fetch('https://httpterod-ctilo-production.up.railway.app/auth/login', {
+      const response = await fetch('httpterod-ctilo-delta.up.railway.app/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
